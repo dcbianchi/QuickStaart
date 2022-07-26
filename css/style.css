@@ -1,6 +1,7 @@
 body{
     background-color: #000000;
     color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .Main {
@@ -32,9 +33,14 @@ body{
 .QuestionCard{
     background-color: #3914f2;
     text-align: center;
+    padding: 3vw;
+    position: relative;
 }
 
 .AnswerCard{
     background-color: #ffffff;
     color: #000000;
+    display: inline-block;
+    padding: 5vw, 0vw;
+    min-width:40vw;
 }
