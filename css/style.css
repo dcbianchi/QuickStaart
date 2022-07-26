@@ -32,6 +32,38 @@ body{
     justify-content: center;
 }
 
+.LeftBox {
+    padding: 8rem;
+}
+
+.LeftBox_Logo{
+    font-size: 6rem;
+}
+
+.LeftBox_Title{
+    font-size: 3rem;
+}
+
+.LeftBox_Description{
+   margin: 3rem, 0;
+   font-size: 
+}
+
+.Buttoms{
+    display:flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.Button{
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 100%;
+    height: 6rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
 .QuestionCard{
     background-color: #7026D9;
 }
