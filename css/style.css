@@ -4,7 +4,6 @@ body{
 }
 
 .Main {
-    background-color: #ffffff;
     width: valorVW;
     height: valorVW; /* A mágica está aqui */
     padding-bottom: 48%; /* ... e está aqui */
@@ -14,8 +13,6 @@ body{
 }
 
 .LeftCard{
-    background-color: #ffffff;
-    color: #000000;
     width: 48%;
     height: 0; 
     padding-bottom: 48%;
@@ -25,27 +22,19 @@ body{
 }
 
 .RightCard{
-    background-color: #ffffff;
-    color: #000000;
     width: 48%;
     height: 0; 
-    padding-bottom: 48%;
     margin: 1%;
     float: left;
     position: relative;
 }
 
 .QuestionCard{
-    color: #ff3455
+    background-color: #3914f2;
+    text-align: center;
 }
 
 .AnswerCard{
     background-color: #ffffff;
     color: #000000;
-    width: 48%;
-    height: 0; 
-    padding-bottom: 48%;
-    margin: 1%;
-    float: left;
-    position: relative;
 }
