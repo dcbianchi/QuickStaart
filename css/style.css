@@ -5,29 +5,28 @@ body{
 }
 
 .Main {
-    white-space: nowrap;
-    width: valorVW;
-    height: valorVW; /* A mágica está aqui */
-    padding-bottom: 48%; /* ... e está aqui */
-    margin: 1%;
-    float: left;
-    position: relative;
+    position: absolute;
+    width: 1718px;
+    height: 948px;
+    background: #000000;
 }
 
 .LeftCard{
-    width: 48%;
-    height: 0; 
-    margin: 1%;
+    width: 50%;
+    height: 452px;
     float: left;
     position: relative;
+    background: #000000;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .RightCard{
-    width: 48%;
-    height: 0; 
-    margin: 1%;
-    float: left;
+    width: 50%;
+    height: 452px;
+    float: right;
     position: relative;
+    background: #FFFFFF;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .QuestionCard{
