@@ -2,3 +2,50 @@ body{
     background-color: #000000;
     color: #ffffff;
 }
+
+.Main {
+    background-color: #ffffff;
+    width: valorVW;
+    height: valorVW; /* A mágica está aqui */
+    padding-bottom: 48%; /* ... e está aqui */
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+.LeftCard{
+    background-color: #ffffff;
+    color: #000000;
+    width: 48%;
+    height: 0; 
+    padding-bottom: 48%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+.RightCard{
+    background-color: #ffffff;
+    color: #000000;
+    width: 48%;
+    height: 0; 
+    padding-bottom: 48%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+.QuestionCard{
+    color: #ff3455
+}
+
+.AnswerCard{
+    background-color: #ffffff;
+    color: #000000;
+    width: 48%;
+    height: 0; 
+    padding-bottom: 48%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
