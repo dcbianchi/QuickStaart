@@ -5,6 +5,7 @@ body{
 }
 
 .Main {
+    white-space: nowrap;
     width: valorVW;
     height: valorVW; /* A mágica está aqui */
     padding-bottom: 48%; /* ... e está aqui */
@@ -16,7 +17,6 @@ body{
 .LeftCard{
     width: 48%;
     height: 0; 
-    padding-bottom: 48%;
     margin: 1%;
     float: left;
     position: relative;
@@ -31,7 +31,8 @@ body{
 }
 
 .QuestionCard{
-    background-color: #3914f2;
+    background-color: #7026D9;
+
     text-align: center;
     padding: 3vw;
     position: relative;
