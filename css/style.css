@@ -45,8 +45,7 @@ body{
 }
 
 .LeftBox_Description{
-   margin: 3rem, 0;
-   font-size: 
+   margin: 3rem, 0rem;
 }
 
 .Buttoms{
@@ -72,11 +71,11 @@ body{
     border-radius: 8px 8px 0px 0px;
 }
 
-.QuestionCard{
-    
+.QuestionCard {
+
 }
 
-.AnswerCard{
+.AnswerCard {
     background-color: #ffffff;
     color: #000000;
     padding: 8rem;
