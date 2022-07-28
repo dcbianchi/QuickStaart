@@ -62,16 +62,18 @@ body{
     border-radius: 0.5rem;
 }
 
+
+
 .Card {
     background-color: #ffffff;
     max-width: 60rem;
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .QuestionCard{
     background-color: #7026D9;
     height: 25rem;
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .HeaderCard{
