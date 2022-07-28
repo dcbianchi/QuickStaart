@@ -64,16 +64,23 @@ body{
 
 .Card {
     background-color: #ffffff;
+    max-width: 60rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .QuestionCard{
     background-color: #7026D9;
+    height: 25rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .HeaderCard{
-
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .AnswerCard {
     color: #000000;
+    padding: 3rem 1.5rem;
+    min-height: 14rem;
 }
