@@ -16,7 +16,6 @@ body{
 }
 
 .Main{
-    display: flex;
     height: 100vh;   
 }
 
@@ -26,7 +25,6 @@ body{
 }
 
 .Centralizar{
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -48,7 +46,6 @@ body{
 }
 
 .Buttoms{
-    display:flex;
     justify-content: space-between;
     gap: 4rem;
 }
@@ -58,11 +55,8 @@ body{
     font-weight: 700;
     width: 100%;
     height: 6rem;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
-
-
 
 .Card {
     background-color: #ffffff;
@@ -89,4 +83,10 @@ body{
 .Card, 
 .Button{
     border-radius: 0.5rem;
+}
+
+.Main,
+.Centralizar,
+.Buttoms {
+    display: flex;
 }
