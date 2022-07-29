@@ -1,1 +1,4 @@
-document.getElementById(" LayerBlur").style.filter="blur(0%)";
+function revelarResposta() {
+    var resposta = document.querySelector("#resposta");
+    resposta.classList.toggle("blur");
+  }
