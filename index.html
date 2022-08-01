@@ -32,26 +32,16 @@
                 <p classe="LeftBox_Description">No cartão você encontrará palavras e expressões que irá utilizar no seu dia a dia como dev. Aproveite para testar seus conhecimentos e fixar o significado.
                 </p>
                 <div class="Buttoms">
-                    <button class="Button">Próxima pergunta</button>
-                    <button class="Button">Revelar resposta</button>
+                    <button onclick="buscarInformacao()" class="Button">Próxima pergunta</button>
+                    <button onclick="RevelarResposta()" class="Button">Revelar resposta</button>
+
                 </div>
             </div>
         </div>
         <!-- Conteiner da direita:
             Card de perguntas e respostas
         -->
-        <div class="Container Centralizar">
-            <div class="Card">
-                <!-- Card -->
-                <div class="QuestionCard Centralizar">
-                    <div class="HeaderCard">
-                        <h2>O que é HTML?</h2>
-                    </div>
-                </div>
-                <div class="AnswerCard LayerBlur">
-                    <p>A linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativo online.</p>
-                </div>
-            </div>
+        <div id="CardContainer" class="Container Centralizar">
         </div>
     </div>
 </body>
