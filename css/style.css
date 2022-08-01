@@ -9,10 +9,10 @@ html {
 }
 
 body {
-  background-color: #292929;
-  color: whitesmoke;
+  color: #ffffff;
+  background-color: #000000;
   font-size: 1.6rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container-principal {
@@ -24,7 +24,7 @@ body {
   width: 50%;
 }
 
-.central {
+.centralizar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,12 +46,6 @@ body {
   margin: 3rem 0;
 }
 
-.botoes {
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-}
-
 .botao {
   font-size: 1.6rem;
   font-weight: 700;
@@ -60,8 +54,15 @@ body {
   cursor: pointer;
 }
 
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
 .card {
-  background-color: white;
+  background: #ffffff;
+  /* largura maxima  */
   max-width: 60rem;
   overflow: hidden;
 }
@@ -77,15 +78,15 @@ body {
 }
 
 .card-conteudo {
-  color: black;
+  color: #000000;
   padding: 3rem 1.5rem;
   min-height: 14rem;
 }
 
-.card, .botao { /*refatoração do border radius no card e no botão */
-  border-radius: 0.5rem ;
+.card,
+.botao {
+  border-radius: 0.5rem;
 }
-
 .blur {
   filter: blur(5px);
 }
