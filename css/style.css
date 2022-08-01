@@ -1,46 +1,52 @@
 html {
     font-size: 62.5%;
-  }
-  
-  body {
+    /* Por que 62.5%? 
+    - Para facilitar a conversação para REM usamos 62.5%
+    - O valor padrão, ou seja, se não definirmos um valor para a fonte, ela será de 13px.
+    - Se definirmos a fonte em 10px temos a razão de rem em 4:1, ou seja, 4 pixels são iguais a 1 rem
+    - 62.5% cria um valor de 10px com base em um calculo de conversão para rem
+    - Usamos em porcentagem por que a maioria dos navegadores não atualizam esse valor automaticamente.*/
+}
+
+body {
     color: #ffffff;
     background-color: #000000;
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
   }
   
-  .container-principal {
+.container-principal {
     display: flex;
     height: 100vh;
   }
-  
+
   .container {
     width: 50%;
   }
   
-  .centralizar {
+.centralizar {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .principal {
+.principal {
     padding: 8rem;
   }
   
-  .principal-logo {
+.principal-logo {
     font-size: 6rem;
   }
   
-  .principal-titulo {
+.principal-titulo {
     font-size: 3rem;
   }
   
-  .principal-descricao {
+.principal-descricao {
     margin: 3rem 0;
   }
   
-  .botao {
+.botao {
     font-size: 1.6rem;
     font-weight: 700;
     width: 100%;
@@ -48,40 +54,40 @@ html {
     cursor: pointer;
   }
   
-  .botoes {
+.botoes {
     display: flex;
     justify-content: space-between;
     gap: 4rem;
   }
   
-  .card {
+.card {
     background: #ffffff;
     /* largura maxima  */
     max-width: 60rem;
     overflow: hidden;
   }
   
-  .card-cabecalho {
+.card-cabecalho {
     background-color: #7026d9;
     height: 25rem;
   }
   
-  .card-titulo {
+.card-titulo {
     font-size: 2.5rem;
     font-weight: 700;
   }
   
-  .card-conteudo {
+.card-conteudo {
     color: #000000;
     padding: 3rem 1.5rem;
     min-height: 14rem;
   }
   
-  .card,
-  .botao {
+.card,
+.botao {
     border-radius: 0.5rem;
   }
-  .blur {
+.blur {
     filter: blur(5px);
   }
   
